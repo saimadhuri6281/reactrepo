@@ -23,7 +23,7 @@ function Signup() {
       return;
     }
 
-    navigate('/reactjs');
+    navigate('/dashboard');
   };
 
   return (
@@ -90,3 +90,4 @@ function Signup() {
 }
 
 export default Signup;
+
