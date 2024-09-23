@@ -14,15 +14,14 @@ function Login() {
           <input type="password" placeholder='Enter your Password' />
         </div>
         <div className='signup'>
-          <Link to='/Dashboard'>
+          <Link to='/dashboard'>
             <button>Log in</button>
           </Link>
           <div className='skip-option'>
-            <Link to='/Dashboard'>
+            <Link to='/dashboard'>
               <h3>Skip</h3>
             </Link>
-          </div>
-          <br /><br />
+          </div>         
           <Link to='/signup'>
             <h3>Sign up?</h3>
           </Link>
